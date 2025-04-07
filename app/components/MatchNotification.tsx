@@ -19,7 +19,7 @@ export default function MatchNotification({ show, onClose, onStartChat }: Props)
           className="fixed inset-0 flex items-center justify-center bg-black/50 z-50"
         >
           <div className="bg-white rounded-2xl p-8 text-center max-w-sm mx-4">
-            <h2 className="text-3xl font-bold mb-4">It&apos;s a Match! 💖</h2>
+            <h2 className="text-3xl font-bold mb-4 text-black">It&apos;s a Match! 💖</h2>
             <p className="text-gray-600 mb-6">You and Tamanna have liked each other!</p>
             <div className="space-y-3">
               <button
